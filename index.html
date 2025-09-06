@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohit Khadka</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header">
+            <div class="header-left">
+                <h1 class="name">rohit khadka</h1>
+                <p class="tagline">AI/ML Enthusiast & Computer Science Student</p>
+                <p class="intro">
+                    Namaste! I'm a computer science student from Nepal. My interests revolve around Artificial Intelligence, Machine Learning, Finance, and Philosophy. When I'm not coding, I enjoy teaching, reading, and exploring new ideas.
+                </p>
+            </div>
+            <div class="profile-photo">
+                <img src="images/Myself.jpg" alt="Rohit Khadka" />
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="nav">
+            <ul>
+                <li><a href="#home" class="nav-link active" data-section="home">home</a></li>
+                <li><a href="#blog" class="nav-link" data-section="blog">blog</a></li>
+                <li><a href="#experience" class="nav-link" data-section="experience">experience</a></li>
+                <li><a href="#projects" class="nav-link" data-section="projects">projects</a></li>
+                <li><a href="#publications" class="nav-link" data-section="publications">publications</a></li>
+                <li><a href="#resume" class="nav-link" data-section="resume">resume</a></li>
+                <li><a href="#news" class="nav-link" data-section="news">news</a></li>
+            </ul>
+        </nav>
+
+        <!-- Contact and Social -->
+        <div class="contact-social">
+            <div class="contact">
+                have something to discuss? <a href="mailto:rohitkhadka153@gmail.com">rohitkhadka153@gmail.com</a>
+            </div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/rohit-khadka-9476a3233/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/rohitkhadka1" target="_blank">GitHub</a>
+                <a href="https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID" target="_blank">Google Scholar</a>
+                <!-- <a href="https://twitter.com/YOUR_TWITTER_USERNAME" target="_blank">Twitter/X</a> -->
+            </div>
+        </div>
+
+        <!-- Home Section (Default) -->
+        <div id="home" class="content-section active">
+            <div class="section-title">About</div>
+            <p>Welcome to my portfolio! I'm passionate about the intersection of artificial intelligence and real-world applications. Currently pursuing my computer science degree while actively contributing to the AI/ML community in Nepal.</p>
+            <br>
+            <p>My work spans from theoretical research in machine learning to practical applications in finance and creative problem generation. I believe in the power of education and regularly engage in tutoring and mentoring activities.</p>
+        </div>
+
+        <!-- Experience Section -->
+        <div id="experience" class="content-section">
+            <div class="section-title">Experience</div>
+            <div class="experience-item">
+                <div class="item-title">AI Fellow</div>
+                <div class="item-description">
+                    Selected from thousands for a prestigious AI fellowship focused on industry-grade AI systems.
+Engaged in a rigorous curriculum covering machine learning, deep learning, GenAI and
+real-world capstone projects under expert mentorship.
+
+                </div>
+            </div>
+            
+            <div class="experience-item">
+                <div class="item-title">Data Fellow @ Data Science and AI Community Nepal</div>
+                <div class="item-description">
+                    Selected from 650+ applicants for a competitive data science fellowship. Gained hands-on
+                    experience with statistical analysis, A/B testing, data visualization, and real-world student
+                    engagement projects.
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="item-title">Tutoring & Mentoring</div>
+                <div class="item-description">
+                    Extensive experience tutoring SAT Math and high school subjects including mathematics, physics, and computer science. Passionate about making complex concepts accessible to students of all backgrounds.
+                </div>
+            </div>
+            
+
+            <div class="section-title" style="margin-top: 40px;">Skills</div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4>Programming</h4>
+                    <div class="skill-list">Python, MATLAB</div>
+                </div>
+                <div class="skill-category">
+                    <h4>ML/DL</h4>
+                    <div class="skill-list">CNNs, Transformers, NLP, LLMs</div>
+                </div>
+                <div class="skill-category">
+                    <h4>Tools</h4>
+                    <div class="skill-list">PyTorch, TensorFlow, Scikit-learn, Pandas, NumPy, LangChain, LangGraph(Learning), FastAPI, Django, Docker</div>
+                </div>
+                <div class="skill-category">
+                    <h4>Interests</h4>
+                    <div class="skill-list">AI, Finance, Quantum Computing, Philosophy</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Projects Section -->
+        <div id="projects" class="content-section">
+            <div class="section-title">Projects</div>
+
+            <div class="project-item">
+                <div class="item-title">Mental Health Chatbot using RAG Architecture</div>
+                <div class="item-description">
+                    Built an empathetic mental health chatbot leveraging Retrieval-Augmented Generation (RAG) architecture with open-source LLMs from Hugging Face. 
+                    The system uses LangChain for orchestrating prompts, memory, and retrieval modules, while Pinecone vector database handles efficient storage and 
+                    querying of vector embeddings. This architecture ensures contextually relevant and empathetic responses while maintaining accuracy in mental health information.
+                </div>
+                <div class="project-tech">
+                    <span class="tech-tag">LangChain</span>
+                    <span class="tech-tag">Hugging Face</span>
+                    <span class="tech-tag">RAG</span>
+                    <span class="tech-tag">Pinecone</span>
+                    <span class="tech-tag">Vector DB</span>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="item-title">Stock Price Prediction with Deep Learning</div>
+                <div class="item-description">
+                    Applied CNN and time-series modeling for forecasting stock market trends. Implemented advanced feature engineering techniques and evaluated model performance across different market conditions.
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="item-title">Multi-LLM Framework for Creative Mathematics Problem Generation</div>
+                <div class="item-description">
+                    Research project evaluating multiple LLMs for problem generation, published in the Ohio Journal of School Mathematics. Developed novel metrics for assessing mathematical creativity in AI-generated content.
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="item-title">Hybrid Foundation Model and Price Action Framework for Financial Forecasting with Uncertainty (Ongoing)</div>
+                <div class="item-description">
+                    Designing a hybrid AI system that integrates Time Series Foundation Model (TimeGPT)
+with Price Action features (candlestick structures, support/resistance, volatility regimes)
+to enhance interpretability and robustness of financial forecasts.
+Developing probabilistic forecasting pipeline with uncertainty quantification (conformal
+prediction, quantile regression) and trader-centric evaluation metrics (Sharpe ratio, Sortino
+ratio, Max Drawdown).
+
+                </div>
+            </div>
+
+            <div class="section-title" style="margin-top: 40px;">Honors & Extracurriculars</div>
+            <ul class="honors-list">
+                <li><strong>American Math Olympiad</strong> - Silver Medal, Country Rank 3</li>
+                <li><strong>IOE Integration Bee</strong> - Finalist</li>
+                <li><strong>Nepal Youth Science Summit</strong> - Bronze Medal</li>
+                <li><strong>MILSET Expo</strong> - Asteriod Hunting Project</li>
+                <li><strong>Breakthrough Junior Challenge</strong> - Diffraction video project</li>
+            </ul>
+        </div>
+
+        <!-- Publications Section -->
+        <div id="publications" class="content-section">
+            <div class="section-title">Publications</div>
+            
+            <div class="publication-item">
+                <div class="item-title">LLM Ensemble: Multi-LLM framework for Creative Mathematics Problem Generation</div>
+                <div class="item-meta">Ohio Journal of School Mathematics (Under Review, 2025)</div>
+                <div class="item-description">
+                    Conducted under the guidance of Prof. Michael Todd Edwards, this project proposes a
+multi-LLM system to generate curriculum-aligned, cognitively rich math problems. Research
+funded by the journal to support LLM experimentation and development.
+                </div>
+                <div class="publication-links">
+                    <a href="#" target="_blank" class="pub-link">Paper</a>
+                    <a href="#" target="_blank" class="pub-link">Code</a>
+                    <a href="#" target="_blank" class="pub-link">Cite</a>
+                </div>
+            </div>
+<!-- 
+            <div class="publication-item">
+                <div class="item-title">Deep Learning Approaches in Financial Market Prediction: A Comparative Study</div>
+                <div class="item-meta">Under Review (2025)</div>
+                <div class="item-description">
+                    A comparative analysis of various deep learning architectures for financial market prediction,
+                    with emphasis on CNN and transformer-based models. Evaluated performance across different market
+                    conditions and timeframes.
+                </div>
+                <div class="publication-links">
+                    <a href="#" target="_blank" class="pub-link">Preprint</a>
+                    <a href="#" target="_blank" class="pub-link">Code</a>
+                </div>
+            </div> -->
+        </div>
+
+        <!-- Resume Section -->
+        <div id="resume" class="content-section">
+            <div class="section-title">Resume</div>
+            <p>Download my complete resume for detailed information about my experience, education, and projects.</p>
+            <div class="resume-download">
+                <a href="assets/Rohit_Khadka_CV.pdf" class="resume-link" download>Download Resume (PDF)</a>
+            </div>
+        </div>
+
+        <!-- Blog Section -->
+        <div id="blog" class="content-section">
+            <div class="section-title">Blog</div>
+            <p>Coming soon! I'll be sharing insights on AI/ML, finance, and philosophy. Stay tuned for thoughtful discussions on the intersection of technology and human knowledge.</p>
+        </div>
+
+        <!-- News Section -->
+        <div id="news" class="content-section">
+            <div class="section-title">News</div>
+            <p>Latest updates on my research, publications, and community involvement will appear here. Check back regularly for announcements about new projects and achievements.</p>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            © Rohit Khadka 2025
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
