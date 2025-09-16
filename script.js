@@ -21,9 +21,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // Theme initialization
     const themeToggleBtn = document.getElementById('theme-toggle');
     
-    // Set initial theme
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const savedTheme = localStorage.getItem('theme') || (prefersDark ? 'dark' : 'light');
+    // Set initial theme (default to dark if none saved)
+    const savedTheme = localStorage.getItem('theme') || 'dark';
     document.documentElement.setAttribute('data-theme', savedTheme);
     
     // Theme toggle functionality
