@@ -12,7 +12,7 @@
         <div class="header">
             <div class="header-left">
                 <h1 class="name">rohit khadka</h1>
-                <p class="tagline">Artificial Intelligence & Finance</p>
+                <p class="tagline">Financial Econometrics, AI & Macro-Financial Modeling</p>
             </div>
             <div class="profile-photo">
                 <img src="images/Myself.jpg" alt="Rohit Khadka" />
@@ -63,14 +63,24 @@
             <br>
             <p>I enjoy both theory and practice. Mathematics feels like the cleanest language we have for describing reality, while AI feels like a slightly opinionated assistant that learns from examples and occasionally overfits to life. I care about clarity, rigor, and building models that behave sensibly outside ideal conditions—because the real world rarely reads the documentation.</p>
             <br>
-            <p>At the moment, I'm focused on agentic AI systems, AI-for-finance applications, and research-driven projects, while preparing for internships and research opportunities. I'm drawn to problems that are a bit messy, a bit uncomfortable, and usually more interesting than they first appear.</p>
+            <p>At the moment, my research focus is on exploring how macroeconomic shocks and financial signals can be modeled using a combination of econometric methods (e.g., VAR frameworks) and machine learning approaches (e.g., LLM-based information extraction and agent-based simulations). I'm drawn to problems that are a bit messy, a bit uncomfortable, and usually more interesting than they first appear.</p>
         </div>
 
         <!-- Experience Section -->
         <div id="experience" class="content-section">
             <div class="section-title">Experience</div>
+
+            <div class="experience-item">
+                <div class="item-title">Research Intern @ Nepal Rastra Bank</div>
+                <div class="item-meta">Mar 2026 – May 2026</div>
+                <div class="item-description">
+                    Developed a Bayesian Vector Autoregression (BVAR) model to analyze the impact of remittance shocks on banking-sector stability within a macroprudential stress-testing framework. Conducted scenario design and Impulse Response Function (IRF) analysis to identify systemic risk drivers and delayed transmission mechanisms.
+                </div>
+            </div>
+
             <div class="experience-item">
                 <div class="item-title">AI Fellow @ Fusemachines</div>
+                <div class="item-meta">Apr 2025 – Oct 2025</div>
                 <div class="item-description">
                     Selected from thousands for a prestigious AI fellowship focused on industry-grade AI systems.
 Engaged in a rigorous curriculum covering machine learning, deep learning, GenAI and
@@ -80,7 +90,8 @@ real-world capstone projects under expert mentorship.
             </div>
             
             <div class="experience-item">
-                <div class="item-title">Data Fellow @ Data Science and AI Community Nepal</div>
+                <div class="item-title">Data Fellow @ Sunway Student Research Council</div>
+                <div class="item-meta">Feb 2024 – Feb 2025</div>
                 <div class="item-description">
                     Selected from 650+ applicants for a competitive data science fellowship. Gained hands-on
                     experience with statistical analysis, A/B testing, data visualization, and real-world student
@@ -100,7 +111,11 @@ real-world capstone projects under expert mentorship.
             <div class="skills-grid">
                 <div class="skill-category">
                     <h4>Programming</h4>
-                    <div class="skill-list">Python, MATLAB</div>
+                    <div class="skill-list">Python, SQL, MATLAB</div>
+                </div>
+                <div class="skill-category">
+                    <h4>Quantitative Methods</h4>
+                    <div class="skill-list">Time-series modeling, Bayesian methods, Monte Carlo simulation</div>
                 </div>
                 <div class="skill-category">
                     <h4>ML/DL</h4>
@@ -108,7 +123,7 @@ real-world capstone projects under expert mentorship.
                 </div>
                 <div class="skill-category">
                     <h4>Tools</h4>
-                    <div class="skill-list">PyTorch, TensorFlow, Scikit-learn, Pandas, NumPy, LangChain, LangGraph(Learning), FastAPI, Django, Docker</div>
+                    <div class="skill-list">PyTorch, TensorFlow, Scikit-learn, Pandas, NumPy, LangChain, LangGraph, FastAPI, Django, Docker, PostgreSQL</div>
                 </div>
                 <div class="skill-category">
                     <h4>Interests</h4>
@@ -155,9 +170,25 @@ real-world capstone projects under expert mentorship.
             </div>
 
             <div class="project-item">
+                <div class="item-title">Market Microstructure & Portfolio Optimization (NEPSE)</div>
+                <div class="item-description">
+                    Built a broker network model using graph theory to identify influential market participants and detect anomalous trading behavior. Developed a portfolio optimization engine using Monte Carlo simulation and the Markowitz Model to estimate efficient frontiers and risk-adjusted returns. Designed a sentiment analysis pipeline to extract signals from financial news and integrate them into market models.
+                </div>
+                <div class="publication-links">
+                    <a href="https://tradesight.rohitkhadka1.com.np" target="_blank" class="pub-link">Live Project Link</a>
+                </div>
+                <div class="project-tech" style="margin-top: 15px;">
+                    <span class="tech-tag">Graph Theory</span>
+                    <span class="tech-tag">Monte Carlo</span>
+                    <span class="tech-tag">Markowitz Model</span>
+                    <span class="tech-tag">Sentiment Analysis</span>
+                </div>
+            </div>
+
+            <div class="project-item">
                 <div class="item-title">Tradeनीति – AI-Powered Backtesting Platform</div>
                 <div class="item-description">
-                    Tradeनीति is an AI-driven backtesting platform that helps Nepali retail traders backtest their strategies without advanced finance or coding skills. Traders describe their trading strategy in simple language, and the system backtests, and provides key backtested metrics helping in risk analysis. integrated Monte Carlo simulations to model possible future price movements, giving users a more realistic view of risk beyond historical performance.
+                    Developed a system where natural language trading strategies are converted into executable backtesting code using large language models. Built a secure sandboxed environment to evaluate generated strategies and ensure reproducibility, alongside performance analytics tools for evaluating trading strategies using risk-adjusted metrics.
                 </div>
                 
                 <!-- Demo Video -->
@@ -173,13 +204,13 @@ real-world capstone projects under expert mentorship.
                             title="Tradeनीति Demo">
                         </iframe>
                     </div>
-                    <p class="demo-description">Watch Tradeनीति in action as it guides Nepali businesses through financial modeling and forecasting.</p>
+                    <p class="demo-description">Watch Tradeनीति in action as it guides Nepali retail traders through backtesting and risk analysis.</p>
                 </div>
                 
                 <div class="project-tech">
-                    <span class="tech-tag">AI</span>
-                    <span class="tech-tag">Financial Modeling</span>
-                    <span class="tech-tag">Monte Carlo</span>
+                    <span class="tech-tag">LLMs</span>
+                    <span class="tech-tag">Backtesting</span>
+                    <span class="tech-tag">Sandboxed Environment</span>
                     <span class="tech-tag">Risk Analysis</span>
                 </div>
             </div>
